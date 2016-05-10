@@ -1,0 +1,31 @@
+{{% handler:FormHandler}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<title>{{title}}</title>
+</head>
+<body>
+<h1>Form Handler Example</h1>
+
+{{paramsCount}}{{^paramsCount}}0{{/paramsCount}} parameters were POSTed.<br>
+{{#paramsCount}}
+<p>
+<ul>
+{{#params}}
+<li>{{paramName}} = {{paramValue}}</li>
+{{/params}}
+</ul>
+</p>
+{{/paramsCount}}
+</p>
+<form method="POST" enctype="multipart/form-data" action="">
+Your Name: <input type="text" name="note1"><br>
+Your Email: <input type="text" name="note2"><br>
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

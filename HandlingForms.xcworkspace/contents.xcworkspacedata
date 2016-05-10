@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HandleForms/HandleForms.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Perfect-1.0.0/PerfectLib/PerfectLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Perfect-1.0.0/PerfectServer/PerfectServer.xcodeproj">
+   </FileRef>
+</Workspace>
